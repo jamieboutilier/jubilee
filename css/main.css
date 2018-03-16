@@ -1,0 +1,194 @@
+/***** BASE STYLES *****/
+
+body {
+font-family: 'Source Sans Pro', sans-serif;
+margin: 0 auto;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID ************/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width{
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+/*HEADER************************************************************HEADER*********/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+header h1 {
+  font-family: 'lora', serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #bbc085;
+    padding: 50px 0;
+}
+
+nav {
+  font-family: font-family: 'Source Sans Pro', sans-serif;
+  font-weight: regular;
+  font-size: 18px;
+  line-height: 80px;
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+header h2 {
+    width:
+    clear: both;
+    font-family: 'lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+
+header h2 span {
+    color: 2b2b2b;
+}
+
+/*ABOUT ******************************************************ABOUT**********/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'lora', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: 2b2b2b;
+}
+
+#about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: regular;
+    font-size: 21pt;
+    color:#7f7f7f
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+/*WORK ******************************************************WORK**********/
+#work {
+  background-color: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    color: 2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 32px;
+    width: 190px;
+}
+
+#work p {
+    color: 2b2b2b;
+    font-family: 'lora' , serif;
+    font-size: 18px;
+    font-weight: regular;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/********CONTACT***********************************************CONTACT******/
+
+#contact {
+  background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #social-media-header, #contact ul
+{
+padding-left: 115px;
+}
+
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+  color: 2b2b2b;
+  font-family: 'lora' , serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+#email-header{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: regular;
+    margin: -30px 0 5px 0;
+    line-height: 44px;
+}
+
+#socialmedia-header {
+    font-weight:
+    font-size:
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
